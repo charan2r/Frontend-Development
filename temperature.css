@@ -1,0 +1,62 @@
+
+.converter-container{
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body{
+    border: 1px solid rgb(187, 86, 86);
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+.display{
+    background-color: gray;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.convertselector{
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.valueinput{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.btnarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.btnarea button{
+    margin-left: 2px;
+    padding: 5px;
+    color: blueviolet;
+    background-color: rgb(156, 183, 207);
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: blue;
+}
+
+@media only screen and (max-width:990px) 
+{
+    .converter-container{
+        padding: 5px 8px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}

@@ -1,0 +1,69 @@
+.cv{
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.cv td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.cv h1 {
+    text-align: center;
+    color: #266b32;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.cv b {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    color: blue;
+}
+
+.cv ul {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+*{
+    background-color: rgb(166, 207, 207);
+}
+
+#sign{
+    color: rgb(18, 20, 20);
+}
+
+#person{
+    color: rgb(28, 68, 55);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#signs{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    color: blue;
+}
+
+@media only screen and (max-width:990px) 
+{
+    .container{
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
+    
+}
